@@ -47,7 +47,7 @@ class App extends Component {
         <ol>
           {this.filtercityList &&
             this.filtercityList.map((item, index) => {
-              <li key={`location$(index + 1)`}> {item.name}</li>;
+              <li key={`location${index + 1}`}> {item.name}</li>;
             })}
         </ol>
       </div>
